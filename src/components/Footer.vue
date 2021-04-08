@@ -5,7 +5,7 @@
         <strong>© {{ new Date().getFullYear() }} Movie App :</strong
         ><a
           class="github ml-2"
-          href="https://www.linkedin.com/in/aysel-cavdar/"
+          href="https://github.com/ayselcavdar/vueflix"
           target="_blank"
           >Aysel Cavdar</a
         >
