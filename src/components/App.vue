@@ -59,7 +59,8 @@ export default {
         state.search = searchTerm;
         setInterval(function () {
           state.loading = false;
-        },1000 );
+        },3000);
+        clearInterval();
       },
     };
   },
