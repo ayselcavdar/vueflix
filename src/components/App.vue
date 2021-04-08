@@ -57,9 +57,9 @@ export default {
       handleSearch(searchTerm) {
         state.loading = true;
         state.search = searchTerm;
-        state.search == "mulan" || state.search == "Mulan"
-          ? (state.loading = false)
-          : (state.loading = true);
+        setInterval(function () {
+          state.loading = false;
+        },1000 );
       },
     };
   },
