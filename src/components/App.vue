@@ -60,7 +60,7 @@ export default {
         setInterval(function () {
           state.loading = false;
         },3000);
-        clearInterval();
+        
       },
     };
   },
