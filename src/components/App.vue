@@ -57,10 +57,7 @@ export default {
       handleSearch(searchTerm) {
         state.loading = true;
         state.search = searchTerm;
-        setInterval(function () {
-          state.loading = false;
-        },3000);
-        
+        state.loading = false;
       },
     };
   },
