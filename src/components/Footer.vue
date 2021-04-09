@@ -7,6 +7,7 @@
           class="github ml-2"
           href="https://github.com/ayselcavdar/vueflix"
           target="_blank"
+          rel="noopener"
           >Aysel Cavdar</a
         >
       </v-card-text>
