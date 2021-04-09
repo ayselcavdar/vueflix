@@ -18,7 +18,7 @@
         <v-alert type="error">
           <v-row align="center" class="mx-auto">
             <v-col class="grow">
-              There is no Movie with {{ state.search }}, please refresh your
+              There is no Movie with "{{ state.search }}" , please refresh your
               page or try to search again
             </v-col>
           </v-row>
