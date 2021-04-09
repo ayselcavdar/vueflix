@@ -5,6 +5,7 @@
         :rules="rules"
         :value="movieTitle"
         @keyup="handleChange"
+        label="Search movie"
         single-line
         dense
         solo
